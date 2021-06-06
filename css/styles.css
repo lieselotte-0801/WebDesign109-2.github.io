@@ -1665,7 +1665,7 @@ pre code {
   text-align: left;
 }
 tr:nth-child(even) {
-  background-color: #7DB9DE;
+  background-color: #EEA9A9;
 }
 .table thead th {
   vertical-align: bottom;
@@ -10115,4 +10115,23 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+div.f_container{
+	background-color:#EEA9A9;
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+
+div.child_div{
+	font-size:1.5rem;
+	margin:0.5rem;
+	padding:0.5rem;
+	background-color: blue;
+}
+
+.child_div p{
+	display:block;
+	margin:0rem;
 }
