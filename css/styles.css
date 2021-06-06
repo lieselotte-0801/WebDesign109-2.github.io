@@ -1656,13 +1656,16 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
+  color: #78C2C4;
 }
 .table th,
 .table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #dee2e6;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #7DB9DE;
 }
 .table thead th {
   vertical-align: bottom;
